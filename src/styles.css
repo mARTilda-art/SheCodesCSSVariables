@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #2a9d8f;
+  --secondary-color: #f4a261;
+  --tertiary-color: #e76f51;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  color: var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  color: var(--secondary-color);
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+  color: var(--tertiary-color);
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+  box-shadow: var(--box-shadow);
+}
